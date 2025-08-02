@@ -1,0 +1,120 @@
+/* ==UserStyle==
+@name           Gmail Fully Crystal Sakura by Ivy~
+@namespace      ------
+@version        1.0
+@description    i am tired
+@match          *://mail.google.com/*
+==/UserStyle== */
+
+@-moz-document domain("mail.google.com") {
+
+  /*  Sakura background everywhere */
+  html, body {
+    background: url('https://wallpapercave.com/wp/wp15434187.jpg') center/cover no-repeat fixed !important;
+    color: #000 !important;
+  }
+
+  /*  Remove ALL nested backgrounds under body */
+  body * {
+    background: rgba(0, 0, 0, 0) !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+  }
+
+  /*  Middle mail area: glass panel */
+  div[role="main"] {
+    backdrop-filter: blur(1px) saturate(1.2) !important;
+    background: #00000008 !important;
+    border-radius: 18px !important;
+    box-shadow: 0 4px 12px rgba(255, 182, 193, 0.2) !important;
+  }
+
+  /* Sidebar: pink glass */
+  div[role="navigation"] {
+    backdrop-filter: blur(0px) saturate(1.2) !important;
+    background: rgba(255, 182, 193, .13) !important;
+    border-radius: 18px !important;
+    color: #fff !important;
+    box-shadow: 0 4px 12px rgba(255, 182, 193, 0.25) !important;
+  }
+
+  /*  Topbar: glass pink strip */
+  header, div[gh="tm"], div[gh="mtb"] {
+    backdrop-filter: blur(0px) saturate(1.2) !important;
+    background: rgba(255, 192, 203, .05) !important;
+    border-radius: 14px !important;
+    box-shadow: 0 2px 6px rgba(255, 182, 193, .11) !important;
+  }
+
+  /* Compose & read panels: same crystal glass */
+  .AD, .nH.hx, .nH.Hd, .Ap, .nH.ar4 {
+    backdrop-filter: blur(0px) saturate(1.2) !important;
+    background: rgba(255, 255, 255, 0.05) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 4px 10px rgba(255, 182, 193, .08) !important;
+  }
+	
+  /* Text white only in middle and side panels */
+  div[role="main"] *, div[role="navigation"] *, header *, .aeF *, .Cp *, .ar5 * {
+    color: #000 !important;
+  }
+
+  /* Top action bar icons */
+  .G-atb *, .G-atb svg, .G-atb path, .G-atb use, .G-atb .asa, .G-atb .asa *, 
+  .G-atb .aXw, .G-atb .aXw *, .G-atb .bzn, .G-atb .bzn *, 
+  .G-atb .T-I, .G-atb .T-I *, 
+  .G-atb .material-icons {
+    color: #000 !important;
+    fill: #000 !important;
+    stroke: #000 !important;
+    opacity: 1 !important;
+  }
+
+  /* Sidebar icons (Inbox, Starred, Snoozed, etc.) */
+  .aim svg, .aim path, .aim use, 
+  .aeN svg, .aeN path, .aeN use, 
+  .asa, .asa *, .aXw, .aXw *, .bzn, .bzn *, 
+  .TO, .TO *, .TN, .TN *, 
+  .material-icons {
+    color: #000 !important;
+    fill: #000 !important;
+    stroke: #000 !important;
+    opacity: 1 !important;
+  }
+
+  /* Gmail sometimes uses icon fonts instead of SVG */
+  .material-icons, .gb_We, .gb_Ue, .gb_Ke, .asa, .aXw {
+    color: #000 !important;
+  }
+
+  /* Force icon CSS variable Gmail uses internally */
+  :root {
+    --icon-color: #000 !important;
+    --gm-icon-color: #000 !important;
+    --gm-fill-color: #000 !important;
+  }
+
+
+
+  /*  Buttons: pink glow on hover */
+  .T-I:hover, .T-I:focus {
+    box-shadow: 0 0 8px rgba(255, 182, 193, .5), 0 0 4px rgba(173, 216, 230, 0.4) !important;
+  }
+
+  /*  Rounded everywhere */
+  .nH, .aeF, .aKh, .ar5, .Cp, .T-I, .nH.hx, .nH.Hd, .Ap, .nH.ar4 {
+    border-radius: 16px !important;
+  }
+
+  /*  Pink scrollbars */
+  html::-webkit-scrollbar {
+    width: 8px;
+  }
+  html::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 182, 193, .5);
+    border-radius: 10px;
+  }
+  html::-webkit-scrollbar-track {
+    background: transparent;
+  }
+	
+}

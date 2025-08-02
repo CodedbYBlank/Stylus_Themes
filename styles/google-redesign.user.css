@@ -1,0 +1,192 @@
+/* ==UserStyle==
+@name           Google Redesign~
+@namespace      -------
+@version        1.0.0
+@description    Fully customized Google 
+@match          *://*.google.com/*
+==/UserStyle== */
+
+@-moz-document domain("google.com") {
+
+  /* Full Page Background */
+  body {
+    background: url("https://wallpapercave.com/w/wp1848195.png") center/cover no-repeat fixed !important;
+    color: #fff !important;
+  }
+
+  /*  Top Search Bar + Header */
+  #appbar, #searchform {
+    background: rgba(20, 20, 35, 0) !important;
+    backdrop-filter: blur(10px);
+    border: none !important;
+    padding: 10px 20px;
+    box-shadow: none;
+  }
+
+  .RNNXgb {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border-radius: 15px !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.05);
+  }
+	
+  .sfbg {
+    background: #1f1f1f00;
+    height: 69px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    margin-top: -20px;
+  }
+
+  .minidiv .sfbg {
+    height: 72px;
+    overflow: hidden;
+    background: #30313400;
+  }
+
+  .gLFyf {
+    color: #fff !important;
+  }
+
+  input[type="text"]::placeholder {
+    color: #ddd;
+  }
+
+  .Lu57id {
+    display: flex;
+    align-items: center;
+    column-gap: 2px;
+    font-family: Google Sans, Arial, sans-serif;
+    font-weight: 500;
+    color: #80868b;
+    padding: 2px 8px 0 12px;
+    border-radius: 12px;
+    height: 30px;
+    background-color: #fbd2fa;
+  }
+	/*  Hide the black footer */
+	#fbar, .fbar, .b2hzT, .Fx4vi {
+  	display: none !important;
+ }
+
+
+  /*  Search Result Cards */
+  .tF2Cxc {
+    background: rgba(0, 0, 0, 0.2) !important;
+    padding: 18px;
+    border-radius: 16px;
+    margin: 16px 0;
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .tF2Cxc:hover {
+    box-shadow: 0 0 25px rgba(255, 105, 180, 0.4);
+    background: rgba(30, 30, 50, 0.6) !important;
+  }
+
+  a {
+    color: #ffd6ff !important;
+  }
+
+  a:hover {
+    color: #ffc4ec !important;
+    text-decoration: underline;
+  }
+
+  /*  Knowledge Panel / Side Cards */
+  .kp-wholepage {
+    background: rgba(0, 0, 0, 0.6) !important;
+    border-radius: 15px;
+    padding: 16px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  }
+
+  /* Text Styling */
+  .MUxGbd, .IsZvec {
+    color: #eee !important;
+  }
+
+  /*  Selection Highlight */
+  ::selection {
+    background: #ffb0f0;
+    color: #000;
+  }
+
+  /*  Top Menu Strip (All | Images | Videos | etc.) */
+  .MUFPAc {
+    background: rgba(25, 25, 25, 0.3) !important;
+    backdrop-filter: blur(6px) !important;
+    border-radius: 10px !important;
+    margin-top: 10px !important;
+    padding: 8px 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .gTMtLb, .t2vtad {
+    border: none !important;
+    background: transparent !important;
+  }
+
+  .MUFPAc > div {
+    margin: 0 6px !important;
+  }
+
+  .hdtb-mitem a {
+    color: #ffb5ff !important;
+    font-weight: 500;
+  }
+
+  .hdtb-mitem.hdtb-msel a {
+    color: #ffffff !important;
+    font-weight: bold;
+    border-bottom: 2px solid #f4bfff;
+  }
+
+  .hdtb-mitem a:hover {
+    color: #ffcaff !important;
+    text-decoration: underline;
+  }
+	
+   .CbazZd {
+    padding-bottom: 10px;
+    background-color: #1f1f1f00;
+}
+
+	.YNk70c{
+    background-color: rgba(255, 105, 180, 0);
+	color : #ffcaff;
+	margin: 0 6px !important;
+    border: none !important;
+    padding: 0 !important;
+}
+  .f6F9Be {
+    background: #17171700;
+    line-height: 40px;
+    padding-bottom: 12px;
+  }
+
+  /*  Rounded Edges for Rich Cards & Panels */
+  .ULSxyf, .ifM9O, .g, .tF2Cxc, .kp-wholepage, .cUnQKe, .VibNM, .d2AWG, .GyAeWb {
+    border-radius: 18px !important;
+    overflow: hidden !important;
+  }
+
+  .Ww4FFb.vt6azd, .BVG0Nb, .kno-fb-ctx, .wDYxhc {
+    border-radius: 16px !important;
+    overflow: hidden !important;
+  }
+
+  /* Black Bar Kill Squad */
+  .T47uwc, .crJ18e, .goxjub, .gBLRke, .v7W49e, .PZPZlf, .T7sFge {
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+  }
+}
