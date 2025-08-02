@@ -89,17 +89,31 @@ A collection of aesthetic **UserStyles**:
 - 🎨 [wallpapercave.com](https://wallpapercave.com) for aesthetic backgrounds
 
 **Repo Structure:**
-📦 root/
-├─ 📄 README.md
-├─ 📄 LICENSE
-├─ 📂 images/
-│ ├─ chatgpt-preview.png
-│ ├─ gmail-preview.png
-│ ├─ google-preview.png
-│ └─ youtube-preview.png
-├─ 📂 styles/
-│ ├─ chatgpt-sakura.user.css
-│ ├─ gmail-crystal-sakura.user.css
-│ ├─ google-redesign.user.css
-│ └─ youtube.user.css
+📦 `root/`  
+├─ 📄 `README.md`  
+├─ 📄 `LICENSE`  
+├─ 📂 `images/`  
+│  ├─ `chatgpt-preview.png`  
+│  ├─ `gmail-preview.png`  
+│  ├─ `google-preview.png`  
+│  └─ `youtube-preview.png`  
+├─ 📂 `styles/`  
+│  ├─ `chatgpt-sakura.user.css`  
+│  ├─ `gmail-crystal-sakura.user.css`  
+│  ├─ `google-redesign.user.css`  
+│  └─ `youtube.user.css`
+
+---
+
+## Author
+Made by **Navneet~**  
+> _"Umm… nothing..."_
+
+---
+
+## License
+MIT License – free to use, fork & share.  
+> ⭐ **Star** the repo if you like it & spread the sakura magic! 🌸
+
+---
 
